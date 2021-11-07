@@ -1,5 +1,5 @@
 <?php
-require('../desksub/lib/simple.php');
+require('simple.php');
 
 $response   = request();
 $lastUser   = @file_get_contents('last');
